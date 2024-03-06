@@ -1,3 +1,4 @@
+# function for checking if it is a leap year
 def check_year(year):
   flag = 0
   if year%4 == 0:
@@ -10,6 +11,7 @@ def check_year(year):
     return 1
   return 0
 
+#input year from the user
 year = int(input("Enter year: "))
 if(check_year(year)):
   print("Leap year")
